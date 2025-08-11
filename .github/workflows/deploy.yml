@@ -5,6 +5,11 @@ on:
     branches:
       - main  # build kalau ada push di main
 
+      
+permissions:
+  contents: write
+
+
 jobs:
   build:
     runs-on: ubuntu-latest
