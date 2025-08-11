@@ -97,4 +97,4 @@ sudo a2ensite myconfig.conf
 sudo systemctl reload apache2
 ```
 19. This is how it's gonna look
-![apache example](/assets/apache.png)
+![apache example](../image/apache-example.png)

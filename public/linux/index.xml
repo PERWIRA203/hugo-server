@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux Documentation :: PERWIRA203 Documentation</title>
-    <link>http://localhost:1313/linux/index.html</link>
+    <link>http://localhost:1313/hugo-server/linux/index.html</link>
     <description>This is my Linux Project Documentation Basic Command in Ubuntu and Debian based Command Function Example ls See the content of directory ls -l cd Change Path Directory you on cd /etc apt Manage software package apt update rm Delete file rm (file) sudo Make a command super user sudo rm</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/hugo-server/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apache Server in Ubuntu</title>
-      <link>http://localhost:1313/linux/apache/index.html</link>
+      <link>http://localhost:1313/hugo-server/linux/apache/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/linux/apache/index.html</guid>
+      <guid>http://localhost:1313/hugo-server/linux/apache/index.html</guid>
       <description>Step by Step : Update package of your linux sudo apt-get update&#xD;Install package apache sudo apt-get install apache2 Change Directory to sites-available on directory apache cd /etc/apache2/sites-available&#xD;In this directory, you can see there’s 2 default configuration perwira203@ubuntu~/etc/apache2/sites-available# ls&#xD;000-default.conf default-ssl.conf&#xD;The 000-default.conf is for http service 000-default.conf&#xD;The default-ssl.conf is for https service default-ssl.conf&#xD;The configuration that on is the default http service, so you can copy it and make new configuration file sudo cp 000-default.conf myconfig.conf&#xD;Edit your configuration file sudo nano myconfig.conf&#xD;Change the path file of the configuration DocumentRoot /var/www/html&#xD;to</description>
     </item>
     <item>
       <title>Bind server in Ubuntu</title>
-      <link>http://localhost:1313/linux/bind/index.html</link>
+      <link>http://localhost:1313/hugo-server/linux/bind/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/linux/bind/index.html</guid>
+      <guid>http://localhost:1313/hugo-server/linux/bind/index.html</guid>
       <description>Step by Step : Update package of your linux sudo apt-get update&#xD;Install Bind server sudo apt-get install bind9&#xD;Change directory to bind cd /etc/bind&#xD;Copy file configuration db.127 to db.reverse, and db.local to db.forward sudo cp db.127 db.reverse | sudo cp db.local db.forward&#xD;Edit db.reverse configuration, default config : ;&#xD;; BIND reverse data file for local loopback interface&#xD;;&#xD;$TTL 604800&#xD;@ IN SOA localhost. root.localhost. (&#xD;1 ; Serial&#xD;604800 ; Refresh&#xD;86400 ; Retry&#xD;2419200 ; Expire&#xD;604800 ) ; Negative Cache TTL&#xD;;&#xD;@ IN NS localhost.&#xD;1.0.0 IN PTR localhost.&#xD;To this : ;&#xD;; BIND reverse data file for local loopback interface&#xD;;&#xD;$TTL 604800&#xD;@ IN SOA contoh.local. root.contoh.local. (&#xD;1 ; Serial&#xD;604800 ; Refresh&#xD;86400 ; Retry&#xD;2419200 ; Expire&#xD;604800 ) ; Negative Cache TTL&#xD;;&#xD;@ IN NS contoh.local.&#xD;2 IN PTR contoh.local.</description>
     </item>
   </channel>

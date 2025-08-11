@@ -5,7 +5,7 @@ var relearn_searchindex = [
     "description": "This is my Cisco Based Project Documentation",
     "tags": [],
     "title": "Cisco Documentation",
-    "uri": "/cisco/index.html"
+    "uri": "/hugo-server/cisco/index.html"
   },
   {
     "breadcrumb": "PERWIRA203 Documentation",
@@ -13,7 +13,7 @@ var relearn_searchindex = [
     "description": "This is my Linux Project Documentation Basic Command in Ubuntu and Debian based Command Function Example ls See the content of directory ls -l cd Change Path Directory you on cd /etc apt Manage software package apt update rm Delete file rm (file) sudo Make a command super user sudo rm",
     "tags": [],
     "title": "Linux Documentation",
-    "uri": "/linux/index.html"
+    "uri": "/hugo-server/linux/index.html"
   },
   {
     "breadcrumb": "PERWIRA203 Documentation \u003e Linux Documentation",
@@ -21,7 +21,7 @@ var relearn_searchindex = [
     "description": "Step by Step : Update package of your linux sudo apt-get update\rInstall package apache sudo apt-get install apache2 Change Directory to sites-available on directory apache cd /etc/apache2/sites-available\rIn this directory, you can see there’s 2 default configuration perwira203@ubuntu~/etc/apache2/sites-available# ls\r000-default.conf default-ssl.conf\rThe 000-default.conf is for http service 000-default.conf\rThe default-ssl.conf is for https service default-ssl.conf\rThe configuration that on is the default http service, so you can copy it and make new configuration file sudo cp 000-default.conf myconfig.conf\rEdit your configuration file sudo nano myconfig.conf\rChange the path file of the configuration DocumentRoot /var/www/html\rto",
     "tags": [],
     "title": "Apache Server in Ubuntu",
-    "uri": "/linux/apache/index.html"
+    "uri": "/hugo-server/linux/apache/index.html"
   },
   {
     "breadcrumb": "PERWIRA203 Documentation \u003e Cisco Documentation",
@@ -29,7 +29,7 @@ var relearn_searchindex = [
     "description": "Voip git status\rgit add\rgit commit",
     "tags": [],
     "title": "Voip",
-    "uri": "/cisco/voip/index.html"
+    "uri": "/hugo-server/cisco/voip/index.html"
   },
   {
     "breadcrumb": "PERWIRA203 Documentation \u003e Linux Documentation",
@@ -37,7 +37,7 @@ var relearn_searchindex = [
     "description": "Step by Step : Update package of your linux sudo apt-get update\rInstall Bind server sudo apt-get install bind9\rChange directory to bind cd /etc/bind\rCopy file configuration db.127 to db.reverse, and db.local to db.forward sudo cp db.127 db.reverse | sudo cp db.local db.forward\rEdit db.reverse configuration, default config : ;\r; BIND reverse data file for local loopback interface\r;\r$TTL 604800\r@ IN SOA localhost. root.localhost. (\r1 ; Serial\r604800 ; Refresh\r86400 ; Retry\r2419200 ; Expire\r604800 ) ; Negative Cache TTL\r;\r@ IN NS localhost.\r1.0.0 IN PTR localhost.\rTo this : ;\r; BIND reverse data file for local loopback interface\r;\r$TTL 604800\r@ IN SOA contoh.local. root.contoh.local. (\r1 ; Serial\r604800 ; Refresh\r86400 ; Retry\r2419200 ; Expire\r604800 ) ; Negative Cache TTL\r;\r@ IN NS contoh.local.\r2 IN PTR contoh.local.",
     "tags": [],
     "title": "Bind server in Ubuntu",
-    "uri": "/linux/bind/index.html"
+    "uri": "/hugo-server/linux/bind/index.html"
   },
   {
     "breadcrumb": "PERWIRA203 Documentation",
@@ -45,7 +45,7 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Categories",
-    "uri": "/categories/index.html"
+    "uri": "/hugo-server/categories/index.html"
   },
   {
     "breadcrumb": "",
@@ -53,7 +53,7 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "PERWIRA203 Documentation",
-    "uri": "/index.html"
+    "uri": "/hugo-server/index.html"
   },
   {
     "breadcrumb": "PERWIRA203 Documentation",
@@ -61,6 +61,6 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Tags",
-    "uri": "/tags/index.html"
+    "uri": "/hugo-server/tags/index.html"
   }
 ]
