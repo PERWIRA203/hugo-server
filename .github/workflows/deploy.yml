@@ -71,7 +71,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://PERWIRA203.github.io/" \
+            --baseURL "https://PERWIRA203.github.io/hugo-server/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
 
       - name: Cache Save
