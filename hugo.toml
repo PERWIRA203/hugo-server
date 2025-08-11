@@ -1,0 +1,25 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'PERWIRA203 Documentation'
+theme = 'hugo-theme-relearn'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[params]
+  themeVariant = "auto"
+  alwaysopen = false
+
+[[menu.main]]
+  name = "Cisco"
+  url = "/cisco/"
+  weight = 1
+
+[[menu.main]]
+  name = "Linux"
+  url = "/linux/"
+  weight = 2
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PERWIRA203 Documentation</title>
+    <link>http://localhost:1313/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cisco Documentation</title>
+      <link>http://localhost:1313/cisco/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cisco/index.html</guid>
+      <description>This is my Cisco Based Project Documentation</description>
+    </item>
+    <item>
+      <title>Linux Documentation</title>
+      <link>http://localhost:1313/linux/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/linux/index.html</guid>
+      <description>This is my Linux Project Documentation Basic Command in Ubuntu and Debian based Command Function Example ls See the content of directory ls -l cd Change Path Directory you on cd /etc apt Manage software package apt update rm Delete file rm (file) sudo Make a command super user sudo rm</description>
+    </item>
+  </channel>
+</rss>
