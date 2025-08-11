@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://PERWIRA203.github.io/hugo-server/'
 languageCode = 'en-us'
 title = 'PERWIRA203 Documentation'
 theme = 'hugo-theme-relearn'
