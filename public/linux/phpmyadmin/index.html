@@ -5,22 +5,22 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.148.1">
     <meta name="generator" content="Relearn 8.0.0+9803d5122ebb3276acea823f476e9eb44f607862">
-    <meta name="description" content="Step by Step : Update package of your linux sudo apt-get updateInstall Bind server sudo apt-get install bind9Change directory to bind cd /etc/bindCopy file configuration db.127 to db.reverse, and db.local to db.forward sudo cp db.127 db.reverse | sudo cp db.local db.forwardEdit db.reverse configuration, default config : ;; BIND reverse data file for local loopback interface;$TTL 604800@ IN SOA localhost. root.localhost. (1 ; Serial604800 ; Refresh86400 ; Retry2419200 ; Expire604800 ) ; Negative Cache TTL;@ IN NS localhost.1.0.0 IN PTR localhost.To this : ;; BIND reverse data file for local loopback interface;$TTL 604800@ IN SOA contoh.local. root.contoh.local. (1 ; Serial604800 ; Refresh86400 ; Retry2419200 ; Expire604800 ) ; Negative Cache TTL;@ IN NS contoh.local.2 IN PTR contoh.local.">
+    <meta name="description" content="Step by Step : Update your package sudo apt-get updateinstall mariadb server and apache web server">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Bind server in Ubuntu :: PERWIRA203 Documentation">
-    <meta name="twitter:description" content="Step by Step : Update package of your linux sudo apt-get updateInstall Bind server sudo apt-get install bind9Change directory to bind cd /etc/bindCopy file configuration db.127 to db.reverse, and db.local to db.forward sudo cp db.127 db.reverse | sudo cp db.local db.forwardEdit db.reverse configuration, default config : ;; BIND reverse data file for local loopback interface;$TTL 604800@ IN SOA localhost. root.localhost. (1 ; Serial604800 ; Refresh86400 ; Retry2419200 ; Expire604800 ) ; Negative Cache TTL;@ IN NS localhost.1.0.0 IN PTR localhost.To this : ;; BIND reverse data file for local loopback interface;$TTL 604800@ IN SOA contoh.local. root.contoh.local. (1 ; Serial604800 ; Refresh86400 ; Retry2419200 ; Expire604800 ) ; Negative Cache TTL;@ IN NS contoh.local.2 IN PTR contoh.local.">
-    <meta property="og:url" content="http://localhost:1313/hugo-server/linux/bind/index.html">
+    <meta name="twitter:title" content="PhpMyAdmin in Ubuntu :: PERWIRA203 Documentation">
+    <meta name="twitter:description" content="Step by Step : Update your package sudo apt-get updateinstall mariadb server and apache web server">
+    <meta property="og:url" content="http://localhost:1313/hugo-server/linux/phpmyadmin/index.html">
     <meta property="og:site_name" content="PERWIRA203 Documentation">
-    <meta property="og:title" content="Bind server in Ubuntu :: PERWIRA203 Documentation">
-    <meta property="og:description" content="Step by Step : Update package of your linux sudo apt-get updateInstall Bind server sudo apt-get install bind9Change directory to bind cd /etc/bindCopy file configuration db.127 to db.reverse, and db.local to db.forward sudo cp db.127 db.reverse | sudo cp db.local db.forwardEdit db.reverse configuration, default config : ;; BIND reverse data file for local loopback interface;$TTL 604800@ IN SOA localhost. root.localhost. (1 ; Serial604800 ; Refresh86400 ; Retry2419200 ; Expire604800 ) ; Negative Cache TTL;@ IN NS localhost.1.0.0 IN PTR localhost.To this : ;; BIND reverse data file for local loopback interface;$TTL 604800@ IN SOA contoh.local. root.contoh.local. (1 ; Serial604800 ; Refresh86400 ; Retry2419200 ; Expire604800 ) ; Negative Cache TTL;@ IN NS contoh.local.2 IN PTR contoh.local.">
+    <meta property="og:title" content="PhpMyAdmin in Ubuntu :: PERWIRA203 Documentation">
+    <meta property="og:description" content="Step by Step : Update your package sudo apt-get updateinstall mariadb server and apache web server">
     <meta property="og:locale" content="en_us">
     <meta property="og:type" content="article">
     <meta property="article:section" content="Linux Documentation">
-    <meta itemprop="name" content="Bind server in Ubuntu :: PERWIRA203 Documentation">
-    <meta itemprop="description" content="Step by Step : Update package of your linux sudo apt-get updateInstall Bind server sudo apt-get install bind9Change directory to bind cd /etc/bindCopy file configuration db.127 to db.reverse, and db.local to db.forward sudo cp db.127 db.reverse | sudo cp db.local db.forwardEdit db.reverse configuration, default config : ;; BIND reverse data file for local loopback interface;$TTL 604800@ IN SOA localhost. root.localhost. (1 ; Serial604800 ; Refresh86400 ; Retry2419200 ; Expire604800 ) ; Negative Cache TTL;@ IN NS localhost.1.0.0 IN PTR localhost.To this : ;; BIND reverse data file for local loopback interface;$TTL 604800@ IN SOA contoh.local. root.contoh.local. (1 ; Serial604800 ; Refresh86400 ; Retry2419200 ; Expire604800 ) ; Negative Cache TTL;@ IN NS contoh.local.2 IN PTR contoh.local.">
-    <meta itemprop="wordCount" content="145">
-    <title>Bind server in Ubuntu :: PERWIRA203 Documentation</title>
+    <meta itemprop="name" content="PhpMyAdmin in Ubuntu :: PERWIRA203 Documentation">
+    <meta itemprop="description" content="Step by Step : Update your package sudo apt-get updateinstall mariadb server and apache web server">
+    <meta itemprop="wordCount" content="17">
+    <title>PhpMyAdmin in Ubuntu :: PERWIRA203 Documentation</title>
     <link href="/hugo-server/css/auto-complete/auto-complete.min.css?1759563309" rel="stylesheet">
     <script src="/hugo-server/js/auto-complete/auto-complete.min.js?1759563309" defer></script>
     <script src="/hugo-server/js/search-lunr.js?1759563309" defer></script>
@@ -45,7 +45,7 @@
       window.relearn = window.relearn || {};
       // configuration
       window.relearn.min = ``;
-      window.relearn.path='\/linux\/bind\/index.html';
+      window.relearn.path='\/linux\/phpmyadmin\/index.html';
       window.relearn.relBasePath='..\/..';
       window.relearn.relBaseUri='..\/..\/..';
       window.relearn.absBaseUri='http:\/\/localhost:1313\/hugo-server';
@@ -95,7 +95,7 @@
       window.relearn.markVariant();
     </script>
   </head>
-  <body class="mobile-support html" data-url="/hugo-server/linux/bind/index.html">
+  <body class="mobile-support html" data-url="/hugo-server/linux/phpmyadmin/index.html">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
       <nav id="R-topbar">
@@ -111,12 +111,12 @@
               </div>
             </div>
           </div>
-          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/hugo-server/index.html"><span itemprop="name">PERWIRA203 Documentation</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/hugo-server/linux/index.html"><span itemprop="name">Linux Documentation</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Bind server in Ubuntu</span><meta itemprop="position" content="3"></li>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/hugo-server/index.html"><span itemprop="name">PERWIRA203 Documentation</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/hugo-server/linux/index.html"><span itemprop="name">Linux Documentation</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">PhpMyAdmin in Ubuntu</span><meta itemprop="position" content="3"></li>
           </ol>
           <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/hugo-server/linux/apache/index.html" title="Apache Server in Ubuntu (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/hugo-server/linux/vsftpd/index.html" title="VSFTPD Server in Ubuntu (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
             </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/hugo-server/linux/vsftpd/index.html" title="VSFTPD Server in Ubuntu (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><span class="topbar-control"><i class="fa-fw fas fa-chevron-right"></i></span>
             </div>
             <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
               <div class="topbar-content">
@@ -136,59 +136,18 @@
   <header class="headline">
   </header>
 
-<h1 id="bind-server-in-ubuntu">Bind server in Ubuntu</h1>
+<h1 id="phpmyadmin-in-ubuntu">PhpMyAdmin in Ubuntu</h1>
 
-<p><a href="#R-image-1e42a2b86ca47bc4786ce39e08b99009" class="lightbox-link"><img alt="LOGO Apache" class="lazy lightbox figure-image" loading="lazy" src="https://blog.desdelinux.net/wp-content/uploads/2021/03/bind9.png.webp" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-1e42a2b86ca47bc4786ce39e08b99009"><img alt="LOGO Apache" class="lazy lightbox lightbox-image" loading="lazy" src="https://blog.desdelinux.net/wp-content/uploads/2021/03/bind9.png.webp"></a></p>
+<p><a href="#R-image-86c81d1e39266af15f8cf86207f7db5b" class="lightbox-link"><img alt="Logo Php My Admin" class="lazy lightbox figure-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/PhpMyAdmin_logo.svg/2560px-PhpMyAdmin_logo.svg.png" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-86c81d1e39266af15f8cf86207f7db5b"><img alt="Logo Php My Admin" class="lazy lightbox lightbox-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/PhpMyAdmin_logo.svg/2560px-PhpMyAdmin_logo.svg.png"></a></p>
 <h4 id="step-by-step-">Step by Step :</h4>
 <ol>
-<li>Update package of your linux</li>
+<li>Update your package</li>
 </ol>
 <div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>sudo apt-get update</code></pre></div>
 <ol start="2">
-<li>Install Bind server</li>
+<li>install mariadb server and apache web server</li>
 </ol>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>sudo apt-get install bind9</code></pre></div>
-<ol start="3">
-<li>Change directory to bind</li>
-</ol>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>cd /etc/bind</code></pre></div>
-<ol start="4">
-<li>Copy file configuration db.127 to db.reverse, and db.local to db.forward</li>
-</ol>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>sudo cp db.127 db.reverse | sudo cp db.local db.forward</code></pre></div>
-<ol start="5">
-<li>Edit db.reverse configuration, default config :</li>
-</ol>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>;
-; BIND reverse data file for local loopback interface
-;
-$TTL    604800
-@       IN      SOA     localhost. root.localhost. (
-                              1         ; Serial
-                         604800         ; Refresh
-                          86400         ; Retry
-                        2419200         ; Expire
-                         604800 )       ; Negative Cache TTL
-;
-@       IN      NS      localhost.
-1.0.0   IN      PTR     localhost.</code></pre></div>
-<ol start="6">
-<li>To this :</li>
-</ol>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>;
-; BIND reverse data file for local loopback interface
-;
-$TTL    604800
-@       IN      SOA     contoh.local. root.contoh.local. (
-  	                          1         ; Serial
-                         604800         ; Refresh
-                          86400         ; Retry
-                        2419200         ; Expire
-                         604800 )       ; Negative Cache TTL
-;
-@       IN      NS      contoh.local.
-2       IN      PTR     contoh.local.</code></pre></div>
 
   <footer class="footline">
   </footer>
@@ -239,9 +198,9 @@ $TTL    604800
             <li class="" data-nav-id="/hugo-server/cisco/index.html"><a class="padding" href="/hugo-server/cisco/index.html">Cisco Documentation</a><ul id="R-subsections-546348ad3024113216460c65fb4a5116" class="collapsible-menu"></ul></li>
             <li class="parent " data-nav-id="/hugo-server/linux/index.html"><a class="padding" href="/hugo-server/linux/index.html">Linux Documentation</a><ul id="R-subsections-e2509333b88222aa06f1b5fc60b020b2" class="collapsible-menu">
             <li class="" data-nav-id="/hugo-server/linux/apache/index.html"><a class="padding" href="/hugo-server/linux/apache/index.html">Apache Server in Ubuntu</a></li>
-            <li class="active " data-nav-id="/hugo-server/linux/bind/index.html"><a class="padding" href="/hugo-server/linux/bind/index.html">Bind server in Ubuntu</a></li>
+            <li class="" data-nav-id="/hugo-server/linux/bind/index.html"><a class="padding" href="/hugo-server/linux/bind/index.html">Bind server in Ubuntu</a></li>
             <li class="" data-nav-id="/hugo-server/linux/vsftpd/index.html"><a class="padding" href="/hugo-server/linux/vsftpd/index.html">VSFTPD Server in Ubuntu</a></li>
-            <li class="" data-nav-id="/hugo-server/linux/phpmyadmin/index.html"><a class="padding" href="/hugo-server/linux/phpmyadmin/index.html">PhpMyAdmin in Ubuntu</a></li></ul></li>
+            <li class="active " data-nav-id="/hugo-server/linux/phpmyadmin/index.html"><a class="padding" href="/hugo-server/linux/phpmyadmin/index.html">PhpMyAdmin in Ubuntu</a></li></ul></li>
           </ul>
         </div>
         <div class="R-sidebarmenu R-shortcutmenu-shortcuts">

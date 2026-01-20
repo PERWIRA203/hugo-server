@@ -1,0 +1,15 @@
+wordpress : 
+- wget https://wordpress.org/latest.tar.gz, tar -xvf latest.tar.gz
+- sudo mysql -u root, create databases wordpress_db; , create user 'wordpress_user'@'localhost' identified by 'wordpress*123'; , grant all on wordpress_db.* to 'wordpress_user'@'localhost'; , flush all priveleges;
+- mkdir /var/www/wordpress/wp-content/uploads/, sudo chown www-data:www-data /var/www/wordpress dan /var/www/wordpress/wp-content/uploads/, sudo chmod 775 /var/www/wordpress/ dan /var/www/wordpress/wp-content/uploads
+- sudo openssl req -x509 -newkey rsa:2048 -nodes -keyout /etc/certificate/private.key -out /etc/certificate/certificate.crt
+
+
+freeradius dan daloradius :
+- sudo apt install php freeradius apache2 libapache2-mod-php freeradius-mysql freeradius-utils php-{gd,common,mail,mail-mime,mysql,pear,db,mbstring,xml,curl} wget unzip zip -y
+- mysql -u root -p radius < /etc/freeradius/3.0/mods-config/sql/main/mysql/schema.sql , sudo ln -s /etc/freeradius/3.0/mods-available/sql /etc/freeradius/3.0/mods-enabled/
+- wget https://github.com/lirantal/daloradius/archive/1.3.zip
+- dimana driver = "rlm_sql_null" harus diubah menjadi driver = "rlm_sql_${dialect}", dialect = "sqlite" harus diubah menjadi dialect = "mysql", read_clients = yes harus di-uncomment (hilangkan tanda # di depan baris tersebut), client_table = "nas" harus di-uncomment (hilangkan tanda # di depan baris tersebut).
+- wget https://github.com/lirantal/daloradius/archive/1.3.zip
+- sudo mysql -u root -p radius < contrib/db/fr2-mysql-daloradius-and-freeradius.sql” dan “sudo mysql -u root -p radius < contrib/db/mysql-daloradius.sql
+- sudo chmod 664 /var/www/html/daloradius/library/daloradius.conf.php

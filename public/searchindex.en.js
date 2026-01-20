@@ -40,6 +40,22 @@ var relearn_searchindex = [
     "uri": "/hugo-server/linux/bind/index.html"
   },
   {
+    "breadcrumb": "PERWIRA203 Documentation \u003e Linux Documentation",
+    "content": "Step by Step :",
+    "description": "Step by Step :",
+    "tags": [],
+    "title": "VSFTPD Server in Ubuntu",
+    "uri": "/hugo-server/linux/vsftpd/index.html"
+  },
+  {
+    "breadcrumb": "PERWIRA203 Documentation \u003e Linux Documentation",
+    "content": "Step by Step : Update your package sudo apt-get update\rinstall mariadb server and apache web server",
+    "description": "Step by Step : Update your package sudo apt-get update\rinstall mariadb server and apache web server",
+    "tags": [],
+    "title": "PhpMyAdmin in Ubuntu",
+    "uri": "/hugo-server/linux/phpmyadmin/index.html"
+  },
+  {
     "breadcrumb": "PERWIRA203 Documentation",
     "content": "",
     "description": "",

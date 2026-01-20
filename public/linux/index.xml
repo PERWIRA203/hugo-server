@@ -21,5 +21,19 @@
       <guid>http://localhost:1313/hugo-server/linux/bind/index.html</guid>
       <description>Step by Step : Update package of your linux sudo apt-get update&#xD;Install Bind server sudo apt-get install bind9&#xD;Change directory to bind cd /etc/bind&#xD;Copy file configuration db.127 to db.reverse, and db.local to db.forward sudo cp db.127 db.reverse | sudo cp db.local db.forward&#xD;Edit db.reverse configuration, default config : ;&#xD;; BIND reverse data file for local loopback interface&#xD;;&#xD;$TTL 604800&#xD;@ IN SOA localhost. root.localhost. (&#xD;1 ; Serial&#xD;604800 ; Refresh&#xD;86400 ; Retry&#xD;2419200 ; Expire&#xD;604800 ) ; Negative Cache TTL&#xD;;&#xD;@ IN NS localhost.&#xD;1.0.0 IN PTR localhost.&#xD;To this : ;&#xD;; BIND reverse data file for local loopback interface&#xD;;&#xD;$TTL 604800&#xD;@ IN SOA contoh.local. root.contoh.local. (&#xD;1 ; Serial&#xD;604800 ; Refresh&#xD;86400 ; Retry&#xD;2419200 ; Expire&#xD;604800 ) ; Negative Cache TTL&#xD;;&#xD;@ IN NS contoh.local.&#xD;2 IN PTR contoh.local.</description>
     </item>
+    <item>
+      <title>VSFTPD Server in Ubuntu</title>
+      <link>http://localhost:1313/hugo-server/linux/vsftpd/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-server/linux/vsftpd/index.html</guid>
+      <description>Step by Step :</description>
+    </item>
+    <item>
+      <title>PhpMyAdmin in Ubuntu</title>
+      <link>http://localhost:1313/hugo-server/linux/phpmyadmin/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-server/linux/phpmyadmin/index.html</guid>
+      <description>Step by Step : Update your package sudo apt-get update&#xD;install mariadb server and apache web server</description>
+    </item>
   </channel>
 </rss>

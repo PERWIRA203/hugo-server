@@ -16,6 +16,12 @@
     <loc>http://localhost:1313/hugo-server/linux/bind/index.html</loc>
   </url>
   <url>
+    <loc>http://localhost:1313/hugo-server/linux/vsftpd/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-server/linux/phpmyadmin/index.html</loc>
+  </url>
+  <url>
     <loc>http://localhost:1313/hugo-server/categories/index.html</loc>
   </url>
   <url>
